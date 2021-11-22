@@ -1,0 +1,30 @@
+#sidebar-box {
+    height: 100%;
+    width: 100%;
+    padding: 30px 0px;
+    .logo-side{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .sidebar-menu{
+        width: 100%;
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        li{
+            width: 100%;
+            padding: 10px 30px;
+            
+            a{
+                color: white;
+                transition: 0.4s;
+                display: block;
+            }
+            &:hover a{
+                color: #509c78;
+            }
+        }
+    }
+}
+
