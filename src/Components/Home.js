@@ -1,6 +1,6 @@
 import React,{useState,useRef,useEffect} from 'react'
 import Collapsible from 'react-collapsible';
-import ReactPaginate from 'react-paginate';
+
 import {ReactComponent as DetailCardIcon} from "../assets/images/detail-card.svg"
 import {ReactComponent as Contact} from "../assets/images/contactless.svg"
 import {ReactComponent as Question} from "../assets/images/question.svg"
